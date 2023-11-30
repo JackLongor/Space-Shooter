@@ -78,7 +78,4 @@ This project is licensed under the MIT License: LICENSE.md.
 ## Acknowledgments
 - [List any acknowledgments or credits]
 
-## Contact
-- [Provide your contact information for inquiries or collaboration]
-
 Happy gaming!
