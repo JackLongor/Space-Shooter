@@ -1,6 +1,4 @@
 
-```markdown
-
 # Space Shooter Game
 
 
@@ -71,7 +69,7 @@ Embark on an exhilarating journey through the cosmos in Space Troopers, a captiv
 
 - Pygame library
 
-
+- pip
 
 ### Installation
 
@@ -115,35 +113,32 @@ Embark on an exhilarating journey through the cosmos in Space Troopers, a captiv
 
   ```bash
 
-  python main.py
-
+Space-Shooter.bat
   ```
 
-
-
-2. Utilize keyboard arrow keys for movement (up, down, left, right).
-
-3. Deploy lasers by pressing the spacebar.
+- Press Enter to start the game
+- Use the keys "w,s,a,d" to move up, down, left and right respectively
+- Use the key "space" to shoot
 
 
 
 ## Controls
 
-
-
-- Move Left: Left Arrow Key
-
-- Move Right: Right Arrow Key
-
-- Shoot: Spacebar
-
+- *Start game*: [ENTER]
+- *Move Left*: [A]
+- *Move Right*: [D]
+- *Move Forward*: [W]
+- *Move Backward*: [S]
+- *Shoot*: [SPACE]
 
 
 ## Game Architecture
 
+- The game is made up of enemy spaceships and fighter spaceships.
 
+- The fighter spaceships shoots lasers to kill the enemy spaceships in order to advance in the vaious levels in the game.
 
-The game is designed using a modular approach, with separate modules for player controls, enemy management, collision detection, power-ups, scoring, and graphics. This modular design allows for easy extensibility and modification.
+- The fighter spaceships are able to collect lives along the way in order to stay alive in the game.
 
 
 
@@ -167,7 +162,7 @@ The game is designed using a modular approach, with separate modules for player 
 
 
 
-If you'd like to contribute to the project, please follow the contribution guidelines: CONTRIBUTING.md.
+If you'd like to contribute to the project and make it better, your help is very welcome.
 
 
 
@@ -176,21 +171,3 @@ If you'd like to contribute to the project, please follow the contribution guide
 
 
 This project is licensed under the MIT License: LICENSE.md.
-
-
-
-## Acknowledgments
-
-
-
-- [List any acknowledgments or credits]
-
-
-
-## Contact
-
-
-
-- [Provide your contact information for inquiries or collaboration]
-
-```
